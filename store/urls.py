@@ -20,5 +20,7 @@ from . import views
 
 """create urls for the pages """
 urlpatterns = [
-   path('', views.home, name='home')
+   path('', views.home, name='home'),
+   path('about/', views.about, name='about')
+   
 ]
